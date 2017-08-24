@@ -1,0 +1,148 @@
+@media screen and (max-width: 549px) {
+
+.coachPic {
+    display: none;
+}
+
+#social {
+    width: 175px;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.nav {
+    z-index: 10;
+    background-color: #fff;
+    width: 100%; /*300px*/
+    position: fixed;
+    /* This trasform moves the drawer off canvas. */
+    -webkit-transform: translate(600px, 0);
+    transform: translate(600px, 0);
+    /* Optionally, we animate the drawer. */
+    transition: transform 0.3s ease;
+  }
+
+  .nav.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  .nav__item {
+    display: list-item;
+    width: 100%;
+    text-align: right;
+  }
+
+  
+
+.collage {
+    display: initial;
+}
+
+.largePic  {
+    width: 100%;
+}
+
+.sidePics {
+    width: 100%;
+    display: flex;
+}
+
+.sidePicTop, .sidePicBottom {
+    width: 50%;
+    margin: 0;
+}
+
+.sidePicBottom img {
+   min-height: 100%;
+}
+
+.smallPicSet {
+    display: initial;
+}
+
+.smallPicSet .col-4 {
+    margin: 20px auto;
+}
+
+.coachPicMini {
+    display: initial;
+}
+
+.smallPicSet .col-4 {
+    min-width: 75%;
+}
+
+.smallPicSet img {
+    max-width: 75%;
+}
+
+.smallPicSet p {
+    margin: 0;
+    padding: 0;
+}
+
+}
+
+@media screen and (min-width: 550px) {
+
+.coachPic, .coachPicMini, #menu svg {
+    display: none;
+}
+.selfPic {
+    width: 60%;
+}
+
+.nameId {
+    width: 40%;
+}
+
+#social {
+    width: 250px;
+    margin: auto;
+}
+
+article.collage {
+    
+    min-width: 100%;
+}
+
+.sidePicTop {
+    max-height: 100%;
+}
+
+.sidePicBottom img {
+    max-height: 300px;
+}
+
+.largePic img {
+    min-height: 100%;
+}
+
+article .largePic {
+    min-height: 100%;
+}
+
+.smallPicSet img {
+    padding: 2em;
+    max-height: 225px;    
+}
+
+}
+
+@media screen and (min-width: 777px) {
+
+.selfPic {
+    width: 60%;
+}
+
+.nameId {
+    width: 40%;
+}
+
+#social {
+    width: 250px;
+    margin: auto;
+}
+
+}

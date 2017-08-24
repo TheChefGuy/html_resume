@@ -1,0 +1,98 @@
+
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+a {
+  color: #3d85c6;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3d85c6;
+  text-decoration: underline;
+}
+
+#menu svg {
+    margin-top: 20px;
+    height: 2em;
+    width: 2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+header img {
+    max-height: 250px;
+}
+
+article.collage {
+    max-height: 500px;
+    min-width: 100%;
+}
+
+.sidePicTop {
+    width: 100%;
+    
+}
+
+.sidePicBottom {
+    width: 100%;
+    
+}
+
+.sidePicBottom img {
+    min-width: 100%;
+}
+
+article .largePic { 
+   
+    margin: 0;
+    padding: 0;
+    
+}
+
+article .sidePics {
+    margin: 0 ;
+    padding: 0;
+}
+
+.smallPicSet, .description, .link, .navList, .title {
+    text-align: center;
+}
+
+nav .navItem {
+    padding: 0 40px;
+    display: inline;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.nameId {
+    text-align: right;
+    padding-right: 2em;
+}
+
+div, #social {
+    margin-right: 0;
+}
+
+#social a {
+    padding: 0 10px;
+    margin: 0;
+}
+
+.smallPicSet p {
+    padding: 20px;
+}
